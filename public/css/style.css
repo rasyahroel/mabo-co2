@@ -1,0 +1,65 @@
+.bg-darkalt {
+    background-color: #2f2f2f;
+}
+
+.bg-yellowalt {
+    background-color: #FFC731;
+}
+
+.nav-blog li a:active {
+    border-bottom: 4px solid #FFC731;
+}
+
+.nav-blog li a:hover {
+    border-bottom: 4px solid #FFC731;
+}
+
+.rounded-alt {
+    border-radius: 2rem !important;
+}
+
+.rounded-top-alt {
+    border-top-left-radius: 2rem !important;
+    border-top-right-radius: 2rem !important;
+}
+
+.text-yellow {
+    color: #FFC731
+}
+
+
+/*css list_service*/
+
+.list {
+    list-style: none;
+}
+
+
+/*css forgot password */
+
+.notealt {
+    font-size: 12px;
+}
+
+.transparent-input {
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+}
+
+.facebook {
+    background-image: url(image/facebook.png);
+    background-repeat: no-repeat, repeat;
+    background-position: center;
+    background-size: contain;
+    height: 38px;
+    width: 44px;
+}
+
+.linked-in {
+    background-image: url(image/linked-in.png);
+    background-repeat: no-repeat, repeat;
+    background-position: center;
+    background-size: contain;
+    height: 38px;
+    width: 44px;
+}
