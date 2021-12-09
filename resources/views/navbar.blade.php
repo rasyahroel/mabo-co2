@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container">
-        <a class="navbar-brand" href="#">{{ config('app.name') }}</a>
+        <a class="navbar-brand" href="{{ route('profile') }}">{{ config('app.name') }}</a>
         <button class="navbar-toggler" data-target="#my-nav" data-toggle="collapse">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -13,12 +13,12 @@
                 @else
                 @can('role','admin')
                     <li class="nav-item">
-                        <a href="{{ route('post') }}" class="nav-link">Data Member</a>
+                        <a href="{{ route('service') }}" class="nav-link">Data Member</a>
                     </li>
                 @endcan
                 @can('role',['admin','member'])
                     <li class="nav-item">
-                        <a href="{{ route('post') }}" class="nav-link">Service</a>
+                        <a href="{{ route('service') }}" class="nav-link">Service</a>
                     </li>
                 @endcan
                 <li class="nav-item dropdown">

@@ -33,7 +33,7 @@ Route::group([
             Route::post('logout','LoginAdminController@logout')->name('admin.logout');
 
             Route::view('/','dashboard')->name('dashboard');
-            Route::view('/post','data-post')->name('post')->middleware('can:role,"admin","member"');
+            Route::view('/service','data-service')->name('service')->middleware('can:role,"admin","member"');
             Route::view('/admin','data-admin')->name('admin')->middleware('can:role,"admin"');
         });
 });
